@@ -3,15 +3,15 @@ class TestClass:
     Summary
     """
 
-    def testfunc(self, x:double, y:double) -> double:
+    def testfunc(self, x:float, y:float) -> float:
         """sum
 
         Args:
-            x (int): 1st argument
-            y (int): 2nd argument
+            x (float): 1st argument
+            y (float): 2nd argument
 
         Returns:
-            int: sum result
+            float: sum result
 
         Examples:
             >>> print(testfunc(2,5))
