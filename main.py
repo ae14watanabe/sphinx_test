@@ -6,8 +6,15 @@ class TestClass:
     def testfunc(self, x:double, y:double) -> double:
         """sum
 
-        :param x:
-        :param y:
-        :return sum of x and y:
+        Args:
+            x (int): 1st argument
+            y (int): 2nd argument
+
+        Returns:
+            int: sum result
+
+        Examples:
+            >>> print(testfunc(2,5))
+            7
         """
         return x+y
