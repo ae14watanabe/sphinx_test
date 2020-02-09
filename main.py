@@ -7,6 +7,7 @@ class TestClass:
         """sum
 
         testfunc to sum two args
+
         Parameters
         ----------
             x:float
